@@ -1,0 +1,7 @@
+name: BrickWars
+version: ${project.version}
+main: me.dieinsel.brickwars.BrickWars
+api-version: 1.16
+prefix: BrickWars
+authors: [ DieInsel, KeinOptifine ]
+description: The Better Bedwars

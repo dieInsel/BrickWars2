@@ -1,0 +1,98 @@
+general:
+  teamsize: 2
+  teamcount: 4
+  spawnerconfig:
+    emerald:
+      count: 4
+      rate: 60
+      x: [ 89, 74, 59, 74]
+      y: [ 40, 40, 40, 40]
+      z: [ -32, -16, -32, -47]
+    iron:
+      rate: 1
+    gold:
+      rate: 5
+    diamond:
+      rate: 30
+
+teams:
+  blue:
+    materialid: 3
+    size: inherit
+    spawners:
+      iron:
+        x: -19
+        y: 40
+        z: -34
+      gold:
+        x: -15
+        y: 40
+        z: -27
+      diamond:
+        x: -9
+        y: 40
+        z: -28
+    core:
+      x: -11
+      y: 41
+      z: -35
+  red:
+    materialid: 3
+    size: inherit
+    spawners:
+      iron:
+        x: 167
+        y: 40
+        z: -30
+      gold:
+        x: 163
+        y: 40
+        z: -37
+      diamond:
+        x: 157
+        y: 40
+        z: -35
+    core:
+      x: 159
+      y: 41
+      z: -29
+  yellow:
+    materialid: 3
+    size: inherit
+    spawners:
+      iron:
+        x: 72
+        y: 40
+        z: 62
+      gold:
+        x: 79
+        y: 40
+        z: 58
+      diamond:
+        x: 77
+        y: 40
+        z: 52
+    core:
+      x: 71
+      y: 41
+      z: 54
+  green:
+    materialid: 3
+    size: inherit
+    spawners:
+      iron:
+        x: 76
+        y: 40
+        z: -125
+      gold:
+        x: 69
+        y: 40
+        z: -121
+      diamond:
+        x: 71
+        y: 40
+        z: -115
+    core:
+      x: 77
+      y: 41
+      z: -117
